@@ -43,9 +43,9 @@ import { hoverInfoRow, hoverPanel } from '../utils/cardStyles'
 function Contact() {
   return (
     <div>
-      <section className="bg-blue-900 text-white py-16 px-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">Hubungi Kami</h1>
-        <p className="text-blue-200 max-w-xl mx-auto">
+      <section className="page-hero">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">Hubungi Kami</h1>
+        <p className="text-blue-200 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
           Kami siap membantu kebutuhan akuntansi dan perpajakan Anda. Jangan ragu untuk menghubungi kami.
         </p>
       </section>

@@ -74,9 +74,9 @@ function Services() {
   return (
     <div>
       {/* Header */}
-      <section className="bg-blue-900 text-white py-16 px-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">Layanan Kami</h1>
-        <p className="text-blue-200 max-w-2xl mx-auto">
+      <section className="page-hero">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">Layanan Kami</h1>
+        <p className="text-blue-200 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
           KJA IKA SURYA menyediakan berbagai layanan profesional di bidang akuntansi, 
           perpajakan, dan manajemen untuk mendukung pertumbuhan bisnis Anda.
         </p>

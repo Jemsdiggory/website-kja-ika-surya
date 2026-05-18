@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-blue-900 text-white py-24 px-8 text-center">
+      <section className="page-hero page-hero-lg">
         <h1 className="text-4xl font-bold mb-4">KJA IKA SURYA</h1>
         <p className="text-yellow-300 text-lg mb-4">Kantor Jasa Akuntansi Profesional – Semarang</p>
         <p className="text-blue-100 max-w-2xl mx-auto mb-8">

@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --header-height: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 5rem;
+  }
+}
+
+html {
+  scroll-padding-top: var(--header-height);
+}
+
+@layer components {
+  .page-hero {
+    @apply bg-blue-900 text-white text-center px-4 sm:px-8 py-10 sm:py-16;
+  }
+
+  .page-hero-lg {
+    @apply py-16 sm:py-24;
+  }
+}
