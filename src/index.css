@@ -24,4 +24,32 @@ html {
   .page-hero-lg {
     @apply py-16 sm:py-24;
   }
+
+  .clients-slider {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: auto;
+  }
+
+  .clients-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .clients-slider {
+    cursor: grab;
+  }
+
+  .clients-slider:active {
+    cursor: grabbing;
+  }
+
+  .clients-slide {
+    min-width: 140px;
+  }
+
+  @media (min-width: 640px) {
+    .clients-slide {
+      min-width: 160px;
+    }
+  }
 }

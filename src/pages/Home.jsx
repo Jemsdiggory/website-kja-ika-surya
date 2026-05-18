@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ClientsSection from '../components/ClientsSection'
 import { IconBriefcase, IconClipboard, IconReceipt } from '../components/Icons'
 import { hoverCard } from '../utils/cardStyles'
 import kegiatan1 from '../../img/kegiatan1.jpeg'
@@ -52,16 +53,18 @@ function Home() {
         </div>
       </section>
 
+      <ClientsSection />
+
       {/* Galeri Kegiatan */}
       <section className="py-16 px-8">
         <h2 className="text-3xl font-bold text-center text-blue-900 mb-4">Galeri Kegiatan</h2>
         <p className="text-center text-gray-500 mb-12">Sekilas aktivitas dan suasana di KJA IKA SURYA</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {galeri.map((item) => (
-            <div key={item.label} className="rounded-xl overflow-hidden shadow group relative">
+            <div key={String(item.src)} className="rounded-xl overflow-hidden shadow group relative">
               <img
                 src={item.src}
-                alt={item.label}
+                alt="Kegiatan KJA IKA SURYA"
                 className="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
               />
               
