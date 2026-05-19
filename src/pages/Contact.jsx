@@ -32,9 +32,9 @@ function IconWhatsapp({ className = 'w-6 h-6 text-yellow-500' }) {
 }
 
 const kontakInfo = [
-  { icon: <IconMapPin />, label: 'Alamat', value: 'Jl. Perbalan Purwosari Gg. I, Kec. Semarang Utara, Kota Semarang, Jawa Tengah' },
+  { icon: <IconMapPin />, label: 'Alamat', value: 'JI. Darat Nipah 3 No. 251A Dadapsari Semarang Utara' },
   { icon: <IconPhone />, label: 'Telepon', value: '(024) 3511253' },
-  { icon: <IconWhatsapp />, label: 'WhatsApp', value: '081390645358' },
+  { icon: <IconWhatsapp />, label: 'WhatsApp', value: '+62 856-4027-0055' },
   { icon: <IconEnvelope />, label: 'Email', value: 'firmaikasurya@gmail.com' },
 ]
 
@@ -67,7 +67,7 @@ function Contact() {
               ))}
             </div>
             <a
-              href="https://wa.me/6281390645358"
+              href="https://wa.me/6285640270055"
               target="_blank"
               rel="noreferrer"
               className="mt-8 inline-flex items-center gap-2 bg-green-500 text-white font-bold px-6 py-3 rounded-full hover:bg-green-400 transition"
@@ -81,7 +81,7 @@ function Contact() {
             <h2 className="text-2xl font-bold text-blue-900 mb-8">Jam Operasional</h2>
             <div className={`bg-gray-50 p-6 space-y-3 ${hoverPanel}`}>
               {[
-                { hari: 'Senin - Jumat', jam: '08.00 - 17.00 WIB' },
+                { hari: 'Senin - Jumat', jam: '08.00 - 16.00 WIB' },
                 { hari: 'Sabtu', jam: '08.00 - 13.00 WIB' },
                 { hari: 'Minggu & Hari Libur', jam: 'Tutup' },
               ].map((item) => (
@@ -104,6 +104,41 @@ function Contact() {
 
         </div>
       </section>
+
+      {/* Setelah closing tag section kontak (</section>), tambahkan ini: */}
+
+<section className="py-16 px-8 bg-gray-50">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-2xl font-bold text-blue-900 mb-2">Lokasi Kami</h2>
+    <p className="text-gray-500 mb-6 text-sm">Jl. Darat Nipah 3 No. 251A, Dadapsari, Semarang Utara</p>
+
+    <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+      <iframe
+        title="Lokasi KJA IKA SURYA"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0!2d110.4166!3d-6.9667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4d3f0d7b0f%3A0x6e2b2e2e2e2e2e2e!2sJl.+Darat+Nipah+3+No.251A%2C+Dadapsari%2C+Semarang+Utara!5e0!3m2!1sid!2sid!4v1234567890"
+        width="100%"
+        height="400"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+
+    <div className="mt-4 flex justify-end">
+      
+        <a href="https://maps.app.goo.gl/cNauazsyToJRGvXP7"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-flex items-center gap-2 bg-blue-900 text-white font-bold px-6 py-3 rounded-full hover:bg-blue-800 transition shadow"
+      >
+        <IconMapPin className="w-5 h-5 text-yellow-400" />
+        Buka di Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
     </div>
   )
 }
