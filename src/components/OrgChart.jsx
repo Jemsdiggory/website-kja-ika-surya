@@ -77,12 +77,12 @@ function OrgChartMobile() {
 
       <div className="w-full flex flex-col items-center gap-4">
         <div className="flex flex-col items-center w-full">
-          <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-2">Audit</p>
+          <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-2">Accounting</p>
           <OrgNode variant="operational" className="max-w-full">Supervisior</OrgNode>
           <VLine className="h-4" />
-          <OrgNode variant="operational" className="max-w-full">Senior Auditor</OrgNode>
+          <OrgNode variant="operational" className="max-w-full">Senior Accounting</OrgNode>
           <VLine className="h-4" />
-          <OrgNode variant="operational" className="max-w-full">Junior Auditor</OrgNode>
+          <OrgNode variant="operational" className="max-w-full">Junior Accounting</OrgNode>
         </div>
 
         <OrgNode variant="department" className="max-w-full text-[11px]">
@@ -135,9 +135,9 @@ function OrgChartDesktop() {
               <VLine className="h-6" />
               <OrgNode variant="operational">Supervisior</OrgNode>
               <VLine />
-              <OrgNode variant="operational">Senior Auditor</OrgNode>
+              <OrgNode variant="operational">Senior Accounting</OrgNode>
               <VLine />
-              <OrgNode variant="operational">Junior Auditor</OrgNode>
+              <OrgNode variant="operational">Junior Accounting</OrgNode>
             </div>
 
             <div className="flex flex-col items-center">
