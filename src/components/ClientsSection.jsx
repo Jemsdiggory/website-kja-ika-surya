@@ -12,6 +12,8 @@ import palcoffee from '../../img/client/PALCOFFEE.jpg'
 import headroom from '../../img/client/HEADROOM.jpg'
 import selera from '../../img/client/SELERAINDONESIA.jpg'
 import makyek from '../../img/client/MAKYEK.jpg'
+import manon from '../../img/client/manon.jpeg'
+import mahima from '../../img/client/mahima.jpeg'
 
 const clients = [
   { name: 'PT Podo', logo: ptpodo },
@@ -23,6 +25,8 @@ const clients = [
   { name: 'Headroom', logo: headroom },
   { name: 'Selera Indonesia', logo: selera },
   { name: 'Makyek', logo: makyek },
+  { name: 'Manon', logo: manon },
+  { name: 'Mahima', logo: mahima },
 ]
 
 const stats = [
