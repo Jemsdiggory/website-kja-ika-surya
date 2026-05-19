@@ -25,7 +25,7 @@ function About() {
       <section className="py-10 sm:py-16 px-4 sm:px-8 max-w-4xl mx-auto">
         <h2 className="text-xl sm:text-2xl font-bold text-blue-900 mb-3 sm:mb-4">Siapa Kami?</h2>
         <p className="text-gray-700 mb-4 text-sm sm:text-base leading-relaxed">
-          KJA IKA SURYA adalah perusahaan yang bergerak di bidang jasa profesional, meliputi jasa kompilasi 
+          <span className="font-bold">KJA IKA SURYA</span> adalah perusahaan yang bergerak di bidang jasa profesional, meliputi jasa kompilasi 
           laporan keuangan, jasa perpajakan, jasa pembukuan, jasa manajemen, jasa konsultasi manajemen, 
           dan akuntansi manajemen.
         </p>
@@ -131,9 +131,9 @@ function About() {
               { label: 'Bentuk Usaha', value: 'Firma' },
               { label: 'No. Izin Usaha', value: '38/KM.1/PPPK/2022' },
               { label: 'NPWP KJA', value: '53.4886.155.504.000' },
-              { label: 'Alamat', value: 'Jl. Darat Nipah No. 251A, Semarang Utara' },
+              { label: 'Alamat', value: 'JI. Darat Nipah 3 No. 251A Dadapsari Semarang Utara' },
               { label: 'Telepon', value: '(024) 3511253' },
-              { label: 'WhatsApp', value: '081390645358' },
+              { label: 'WhatsApp', value: '+62 856-4027-0055' },
               { label: 'Email', value: 'firmaikasurya@gmail.com' },
             ].map((item) => (
               <div key={item.label} className={`bg-blue-800 p-3 sm:p-4 rounded-lg ${hoverCardDark}`}>
