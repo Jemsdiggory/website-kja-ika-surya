@@ -8,7 +8,6 @@ import familyfun from '../../img/client/FAMILYFUN.jpg'
 import superskin from '../../img/client/SUPERSKIN.jpg'
 import ciptakarya from '../../img/client/CIPTAKARYA.jpg'
 import indomarco from '../../img/client/INDOMARCO.png'
-import gsports from '../../img/client/GSPORTS_.jpg'
 import palcoffee from '../../img/client/PALCOFFEE.jpg'
 import headroom from '../../img/client/HEADROOM.jpg'
 import selera from '../../img/client/SELERAINDONESIA.jpg'
@@ -20,7 +19,6 @@ const clients = [
   { name: 'Superskin', logo: superskin },
   { name: 'Cipta Karya', logo: ciptakarya },
   { name: 'Indomarco', logo: indomarco },
-  { name: 'G Sports', logo: gsports },
   { name: 'Pal Coffee', logo: palcoffee },
   { name: 'Headroom', logo: headroom },
   { name: 'Selera Indonesia', logo: selera },
@@ -31,7 +29,7 @@ const stats = [
   { value: 15, suffix: '+', label: 'Tahun Pengalaman' },
   { value: 50, suffix: '+', label: 'Klien Terpercaya' },
   { value: 100, suffix: '+', label: 'Proyek Selesai' },
-  { value: 20, suffix: '+', label: 'Tenaga Profesional' },
+  { value: 10, suffix: '+', label: 'Tenaga Profesional' },
 ]
 
 function StatItem({ value, suffix, label, animate }) {
