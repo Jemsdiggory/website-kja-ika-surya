@@ -8,6 +8,7 @@ import {
 } from '../utils/cardStyles'
 
 import pimpinan2 from '../../img/pimpinan2.jpeg'
+import pimpinan1 from '../../img/pimpinan1.jpeg'
 
 function About() {
   return (
@@ -79,7 +80,11 @@ function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-8 max-w-lg sm:max-w-none mx-auto">
             <div className={`${hoverCard} p-5 sm:p-6 text-center`}>
               <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center transition-colors duration-300 group-hover:bg-blue-100 group-hover:ring-2 group-hover:ring-blue-200 overflow-hidden shrink-0">
-                <IconUser />
+                <img
+                  src={pimpinan1}
+                  alt="Dra. Djuwariyah"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="font-bold text-blue-900 text-base sm:text-lg transition-colors duration-300 group-hover:text-blue-800 break-words px-1">
                 Dra. Djuwariyah
